@@ -121,7 +121,7 @@ header  div nav ul li a:hover{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-image: url(../img/columnas\ de\ soporte.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.5)),  url(../img/columnas\ de\ soporte.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ header  div nav ul li a:hover{
     font-size: 20px;
     font-style: normal;
     margin: 50px 300px 10px 300px;
-    background-color: rgba(0, 0, 0, 0.486);
+    
 }
 /*------------------------------------------------------*/
 .titulodepagina{
@@ -230,7 +230,7 @@ header  div nav ul li a:hover{
     box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
-    background-color: #b2cda1;
+    background: radial-gradient(circle, rgba(108,128,109,1) 25%, rgba(178,205,161,1) 86%);
 }
 
 .vision{
@@ -273,7 +273,7 @@ header  div nav ul li a:hover{
     box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
-    background-color: #b2cda1;
+    background: radial-gradient(circle, rgba(108,128,109,1) 25%, rgba(178,205,161,1) 86%);
 }
 
 .carousel{
@@ -294,7 +294,8 @@ header  div nav ul li a:hover{
     text-align: center;
     display: inline-block;
     border-style: double;
-    border-color: #b2cda1;  
+    border-color: #b2cda1; 
+    transition: 1s;
     
 }
 
@@ -302,6 +303,8 @@ header  div nav ul li a:hover{
     box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    height: 400px;
+    transform: scale(1.1)
 }
 
 .servicios div h2{
@@ -450,6 +453,14 @@ header  div nav ul li a:hover{
 .iconos h3{
     font-size: 20px;
     margin: 5px 5px 5px 5px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+.iconos h3:hover{
+    font-size: 23px;
+    color: #f07b58;
+    font-weight: bold;
 }
 
 .iconos iframe{
@@ -907,7 +918,7 @@ footer div h4{
     .tarjeta{
         width: 150px;
         height: 100px;
-        padding-top: 5px;
+        padding-top: 2px;
         margin-top: 5px;
     }
     
@@ -921,7 +932,7 @@ footer div h4{
     
     .tarjeta img{
         width: 90px;
-        height: 65px;
+        height: 85px;
     }    
     
     .valenti{
@@ -929,9 +940,9 @@ footer div h4{
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 3;
-        margin-top: 5px;
+        margin-top: 3px;
         margin-left: 20px;
-        background-color: none;
+        
     }
     .valenti p{
         margin: 5px 0px 0px 0px;
@@ -942,8 +953,8 @@ footer div h4{
         grid-column-end: 3;
         grid-row-start: 2;
         grid-row-end: 3;
-        margin:5px 0px 0px 20px;
-        background-color: none;
+        margin:3px 0px 0px 20px;
+        
     }
 
     .pino p{
