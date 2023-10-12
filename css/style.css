@@ -307,13 +307,6 @@ header  div nav ul li a:hover{
     transform: scale(1.1)
 }
 
-.servicios div h2{
-    color: #757575;
-    font-family: 'roboto', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-    margin: 10px;
-}
 
 .servicios div h3{
     color: #f07b58;
@@ -323,15 +316,6 @@ header  div nav ul li a:hover{
     padding: 10px 5px 10px 5px;
 }
 
-.servicios div p{
-    color: black;
-    font-family: 'roboto', 'sans-serif';
-    font-weight: 200;
-    font-size: 15px;
-    font-style: normal;
-    text-align: center;
-    margin: 10px 100px 10px 100px;
-}
 
 .servicios div img{
     width: 200px;

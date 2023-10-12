@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+/*!-----------------RESET----------*/
+
+header{
+    background-image:url(../img/columnas\ de\ soporte.jpeg) ;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    z-index: 1;
+
+    .grid-header{
+        display: grid;
+        grid-template-rows: 30px 25px 45px;
+        grid-template-columns: repeat(3, 1fr);
+        .titulohigiene{
+            grid-column: span 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            color: $color-secundario;
+            font-size: 8px;
+            font-style: normal;
+            font-family: 'roboto';
+            text-align: left;
+            padding: 1px 2px 1px 2px;
+            margin-bottom: 2px;
+            border: none;
+        }
+        .barradenavegacion{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            background-color: $color-principal;
+            border: none;
+            nav{
+                ul{
+                    list-style: none;
+                    display: flex;
+                    justify-content: space-around;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: black;
+                            font-style: normal;
+                            font-family: 'roboto';
+                            font-weight: 200;
+                                &:hover{
+                                    color: $color-secundario;
+                                }
+                        }
+                    }
+                }    
+            }
+        }
+
+        .logo{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row: span 2;
+            background-color: $color-principal;
+            border: none;
+            padding-top: 5px;
+
+            .logo img{
+                width: 150px;
+                height: 60px;
+                object-fit: fill;
+                margin-left: 60px;
+            }
+        }
+
+        .titulolicenciados{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+            background-color: $color-principal;
+            color:$color-terciario ;
+            font-family: 'roboto', sans-serif;
+            text-align: right;
+            padding-right:  40px;
+            padding-top: 2px;
+            font-size: 6px;
+            border: none;
+        }
+        .bootnav{
+            display: none;
+        }
+    }
+}

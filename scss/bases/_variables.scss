@@ -1,0 +1,129 @@
+$color-principal: #b2cda1;
+$color-secundario: #f07b58;
+$color-terciario: #525352 ;
+$color-cuarto: #757575;
+
+%tarjeta {
+    width: 270px;
+    height: 230px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+%tarjetah2 {
+    color: black;
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 200;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    margin: 10px 10px 0px 10px;
+}
+%tarjetap {
+    color: black;
+    font-family: 'roboto', 'sans-serif';
+    font-weight: 200;
+    font-size: 16px;
+    font-style: normal;
+    text-align: center;
+    margin: 10px 10px 0px 5px;
+}
+%tarjetaimg {
+    width: 160px;
+    height: 180px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-color: $color-cuarto;       
+    border-style: solid;
+}   
+
+%titulodepagina {
+    width: 100%;
+    color: $color-principal;
+    font-family: 'libre Baskerville', 'serif';
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 2px 0px 4px 0px;
+    font-style: normal;
+    text-align: center;
+    background-color: #757875c9;
+}
+
+%look {
+    color: $color-secundario;
+    font-family: 'libre Baskerville', 'serif';
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 5px 5px 10px 5px;
+}
+
+%servicios {
+    width: 300px;
+    height: 350px;
+    margin-left: 2%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-style: oblique;
+    text-align: center;
+    display: inline-block;
+    border-style: double;
+    border-color: $color-principal; 
+    
+}
+%servicioshover {
+    box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    height: 400px;
+    transform: scale(1.1)
+}
+        
+
+%serviciosh3 {
+    color: $color-secundario;
+    font-family: 'roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px 5px 10px 5px;
+}
+        
+
+        
+%serviciosimg {
+    width: 200px;
+    height: 200px;
+    margin: 10px 10px 10px 10px;
+    }
+
+%iconosi {
+        font-size: 40px;
+        margin: 5px 5px 5px 5px;
+        color: $color-cuarto ;
+    }
+    
+%iconosh3 {
+        font-size: 20px;
+        margin: 5px 5px 5px 5px;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+    }
+    
+%iconoshover {
+        font-size: 23px;
+        color: $color-secundario;
+        font-weight: bold;
+    }
+    
+%iconosiframe {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin: 10px 5px 10px 5px;
+    }    
