@@ -1,5 +1,5 @@
 <h1 align="center">Proyecto HTML CSS Valenti-Pino Licenciados</h1>
-<h3 align="center">Este proyecto surge de la necesidad que consultoría "Valenti- Pino Licenciados" tenga mayor visibilidad en las redes. La cosultoría se especializa en seguridad e higiene en obras de todo tipo- Los colores y el logo están enmarcados en el manual de marca de la empresa. La idea principal era dar a conocer a los socios mayoritarios de la consultoría, los servicios que se prestan y algunos ejemplos de obras realizadas.</h3>
+<h3 align="center">Este proyecto surge de la necesidad de la consultoría "Valenti- Pino Licenciados", de tener mayor visibilidad en las redes. La cosultoría se especializa en seguridad e higiene en obras de todo tipo- Los colores y el logo están enmarcados en el manual de marca de la empresa. La idea principal era dar a conocer a los socios mayoritarios de la consultoría, los servicios que se prestan y algunos ejemplos de obras realizadas.</h3>
 
 - 📫 How to reach me **victoria.valenti.02@gmail.com**
 
