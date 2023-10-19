@@ -42,7 +42,7 @@
   height: 180px;
   margin-top: 20px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-color: #757575;
   border-style: solid;
 }
@@ -128,7 +128,7 @@
   width: 100px;
   height: 100px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin: 10px 5px 10px 5px;
 }
 
@@ -218,7 +218,7 @@ header .grid-header .logo .logo img {
   width: 150px;
   height: 60px;
   -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   margin-left: 60px;
 }
 header .grid-header .titulolicenciados {
@@ -354,13 +354,13 @@ header .grid-header .bootnav {
   grid-template-columns: repeat(3, 1fr);
   row-gap: 10px;
   -moz-column-gap: 15px;
-       column-gap: 15px;
+  column-gap: 15px;
 }
 .galeria .grid-galeria .grid-item img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .galeria .grid-galeria .estanteria {
   grid-row: span 2;
@@ -420,7 +420,7 @@ header .grid-header .bootnav {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .contacto {
@@ -448,7 +448,7 @@ header .grid-header .bootnav {
   width: 40px;
   height: 40px;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 /*!-----------------RESET----------*/
@@ -474,7 +474,7 @@ footer div img {
   height: 60px;
   position: relative;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin: 3px 5px 3px 5px;
 }
 footer div h4 {
@@ -498,7 +498,7 @@ footer div img {
   height: 60px;
   position: relative;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin: 3px 5px 3px 5px;
 }
 footer div h4 {
