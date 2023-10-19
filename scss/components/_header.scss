@@ -17,12 +17,12 @@ header{
     display: grid;
     z-index: 1;
 
-    .grid-header{
+    div.grid-header {
         display: grid;
         grid-template-rows: 30px 25px 45px;
         grid-template-columns: repeat(3, 1fr);
 
-        .titulohigiene{
+        div.titulohigiene{
             grid-column: span 3;
             grid-row-start: 1;
             grid-row-end: 2;
@@ -36,7 +36,7 @@ header{
             border: none;
         }
 
-        .logo{
+        div.logo{
             display: grid;
             grid-column-start: 1;
             grid-column-end: 2;
@@ -45,7 +45,7 @@ header{
             border: none;
             padding-top: 5px;
 
-            .logo img{
+            div.logo img{
                 width: 100px;
                 height: 30px;
                 object-fit: fill;
@@ -53,7 +53,7 @@ header{
             }
         }
 
-        .barranavegacion{
+        div.barranavegacion{
             display: grid;
             grid-column-start: 2;
             grid-column-end: 4;
@@ -82,7 +82,7 @@ header{
             }
         }
 
-        .titulolicenciados{
+        div.titulolicenciados{
             grid-column-start: 2;
             grid-column-end: 4;
             grid-row-start: 3;
@@ -97,7 +97,7 @@ header{
             border: none;
         }
     }
-    .bootnav{
+    div.bootnav{
         display: none;
     }
 
