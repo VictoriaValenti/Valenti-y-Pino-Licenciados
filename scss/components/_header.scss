@@ -22,7 +22,7 @@ header{
         grid-template-rows: 30px 25px 45px;
         grid-template-columns: repeat(3, 1fr);
 
-        div.titulohigiene{
+        div.header-item.titulohigiene{
             grid-column: span 3;
             grid-row-start: 1;
             grid-row-end: 2;
@@ -36,7 +36,7 @@ header{
             border: none;
         }
 
-        div.logo{
+        div.header-item.logo{
             display: grid;
             grid-column-start: 1;
             grid-column-end: 2;
@@ -45,7 +45,7 @@ header{
             border: none;
             padding-top: 5px;
 
-            div.logo img{
+            div.header-item.logo img{
                 width: 100px;
                 height: 30px;
                 object-fit: fill;
@@ -53,7 +53,7 @@ header{
             }
         }
 
-        div.barranavegacion{
+        div.header-item.barranavegacion{
             display: grid;
             grid-column-start: 2;
             grid-column-end: 4;
@@ -82,7 +82,7 @@ header{
             }
         }
 
-        div.titulolicenciados{
+        div.header-item.titulolicenciados{
             grid-column-start: 2;
             grid-column-end: 4;
             grid-row-start: 3;
