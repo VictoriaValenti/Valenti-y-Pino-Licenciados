@@ -3,43 +3,7 @@ $color-secundario: #f07b58;
 $color-terciario: #525352 ;
 $color-cuarto: #757575;
 
-%tarjeta {
-    width: 270px;
-    height: 230px;
-    padding-top: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    flex-wrap: nowrap;
-}
 
-%tarjetah2 {
-    color: black;
-    font-family: 'roboto', 'sans-serif';
-    font-weight: 200;
-    font-size: 20px;
-    font-style: normal;
-    text-align: center;
-    margin: 10px 10px 0px 10px;
-}
-%tarjetap {
-    color: black;
-    font-family: 'roboto', 'sans-serif';
-    font-weight: 200;
-    font-size: 16px;
-    font-style: normal;
-    text-align: center;
-    margin: 10px 10px 0px 5px;
-}
-%tarjetaimg {
-    width: 160px;
-    height: 180px;
-    margin-top: 20px;
-    object-fit: cover;
-    border-color: $color-cuarto;       
-    border-style: solid;
-}   
 
 %titulodepagina {
     width: 100%;
@@ -53,16 +17,6 @@ $color-cuarto: #757575;
     background-color: #757875c9;
 }
 
-%look {
-    color: $color-secundario;
-    font-family: 'libre Baskerville', 'serif';
-    font-weight: bold;
-    font-style: normal;
-    text-align: center;
-    font-weight: 700;
-    font-size: 25px;
-    padding: 5px 5px 10px 5px;
-}
 
 %servicios {
     width: 300px;

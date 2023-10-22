@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
@@ -14,272 +13,291 @@
 
 /*!------------------header-----------------*/
 header{
-    background-image:url(../img/columnas\ de\ soporte.jpeg) ;
+    background-color: #b2cda1;
     width: 100%;
     height: auto;
     position: sticky;
     top: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     z-index: 1;
-} 
-
-.grid-header{
-    display: grid;
-    grid-template-rows: 30px 25px 45px;
-    grid-template-columns: repeat(3, 1fr);
 }
 
-.titulohigiene{
-    grid-column: span 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+header div.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: auto;
+}
+    header div.logo h1{
     color: #f07b58;
-    font-size: 8px;
+    font-size: 18px;
     font-style: normal;
     font-family: 'roboto';
-    text-align: left;
     padding: 1px 2px 1px 2px;
     margin-bottom: 2px;
     border: none;
+    }  
+
+    header div.logo img{
+        width: 150px;
+        height: 60px;
+        object-fit: fill;
+        border: none;
+        padding-top: 5px;
+    }
+
+    header div.logo h2{
+        color:#525352 ;
+        font-family: 'roboto', sans-serif;
+        padding-top: 2px;
+        font-size: 15px;
+        border: none;
+    }
+
+header div.barranavegacion{
+    height: auto;
+    width: 320px;
+    border: none;
 }  
 
-.logo{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row: span 2;
-    background-color: #b2cda1;
-    border: none;
-    padding-top: 5px;
-}
+    header div.barranavegacion nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding-left: 5px;
+    }
 
-.barranavegacion{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-color: #b2cda1;
-    border: none;
-}  
+        header div.barranavegacion nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-style: normal;
+            font-family: 'roboto';
+            font-weight: 200;
+            justify-content: space-around;
+        }
 
-header  div nav ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
+            header div.barranavegacion nav ul li a:hover{
+                color: #f07b58;
+            }
 
-
-header  div nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-style: normal;
-    font-family: 'roboto';
-    font-weight: 200;
-}
-
-header  div nav ul li a:hover{
-    color: #f07b58;
-}
-
-
-.logo img{
-    width: 150px;
-    height: 60px;
-    object-fit: fill;
-    margin-left: 60px;
-    
-}
-
-.titulolicenciados{
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    background-color: #b2cda1;
-    color:#525352 ;
-    font-family: 'roboto', sans-serif;
-    text-align: right;
-    padding-right:  40px;
-    padding-top: 2px;
-    font-size: 6px;
-    border: none;
-}
 .bootnav{
     display: none;
 }
 
-
-/*!-------------main----------------------------*/
-
+/*!------------------hero-----------------*/
 .hero{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.5)),  url(../img/columnas\ de\ soporte.jpeg);
+    background-image:url(../img/columnas\ de\ soporte.jpeg);
+    width: 100%;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-.hero h2{
-    color: #ffffff;
-    font-family: 'libre Baskerville', 'serif';
-    font-weight: bold;
-    font-size: 50px;
-    font-style: normal;
-    padding-top: 25px;
-    padding-bottom: 10px;
-    margin: 0px 150px 5px 150px;
-}
+    .hero h2{
+        color: #ffffff;
+        font-family: 'libre Baskerville', 'serif';
+        font-weight: bold;
+        font-size: 50px;
+        font-style: normal;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin: 30px 150px 5px 150px;
+    }
 
-.hero p{
-    color: #ff5722 ;
-    font-family: 'roboto','sans-serif';
-    font-weight: 600;
-    font-size: 20px;
-    font-style: normal;
-    margin: 50px 300px 10px 300px;
-    
-}
-/*------------------------------------------------------*/
+    .hero p{
+        color: #ff5722 ;
+        font-family: 'roboto','sans-serif';
+        font-weight: 600;
+        font-size: 20px;
+        font-style: normal;
+        margin: 50px 300px 10px 300px;
+        background-color: rgba(0, 0, 0, 0.267);
+    }
+
+/*!------------------nosotros-----------------*/    
 .titulodepagina{
     width: 100%;
+    height: 40px;
     color: #b2cda1;
     font-family: 'libre Baskerville', 'serif';
     font-weight: bolder;
-    font-size: 35px;
+    font-size: 30px;
     padding: 2px 0px 4px 0px;
     font-style: normal;
     text-align: center;
     background-color: #757875c9;
 }
 
-
-/*------------------------------------------------------*/
-.quienessomos{
+.nosotros{
     width: 100%;
-    
-}    
-
-.tarjetanosotros{
-    display: grid;
-    grid-template-rows: 10% 45% 45%;
-    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
 }
 
-.tituloquienessomos{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 2;
-}  
-
 .tarjeta{
-    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.nosotros .tarjeta div{
+    width: 25%;
     height: 230px;
+    margin: 40px 0px 30px 0px;
     padding-top: 5px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+    .nosotros .tarjeta div h2{
+        color: black;
+        font-family: 'roboto', 'sans-serif';
+        font-weight: 200;
+        font-size: 20px;
+        font-style: normal;
+        margin: 10px 10px 0px 10px;
+    }
+    .nosotros .tarjeta div p{
+        color: black;
+        font-family: 'roboto', 'sans-serif';
+        font-weight: 200;
+        font-size: 16px;
+        font-style: normal;
+        margin: 5px 10px 0px 5px;
+    }
+
+    .nosotros .tarjeta div img{
+        width: 160px;
+        height: 180px;
+        margin-top: 5px;
+        object-fit: cover;
+        border-radius: 10%;
+        border-color:  #757875c9;
+        border-style: solid;
+    }   
+
+    .nosotros .tarjeta div h3{
+        color: #f07b58;
+        font-family: 'libre Baskerville', 'serif';
+        font-weight: bold;
+        font-style: normal;
+        text-align: center;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 15px;
+        padding: 5px 5px 10px 5px;
+    }
+
+.nosotros .tarjeta .valenti{
+    box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    background: radial-gradient(circle, rgba(108,128,109,1) 25%, rgba(178,205,161,1) 86%);
+}
+
+.nosotros .tarjeta .pino{
+    box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
+    background: radial-gradient(circle, rgba(108,128,109,1) 25%, rgba(178,205,161,1) 86%);
+}
+
+
+.nosotros .carousel{
+    display: none;
+}
+
+/*!------------------formacion-----------------*/ 
+.formacion{
+    display: flex;   
+    justify-content: space-around; 
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.formacion div{
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: auto;
+
+}
+.formacion div h3{
+    color: #f07b58;
+        font-family: 'libre Baskerville', 'serif';
+        font-weight: bold;
+        font-style: normal;
+        text-align: center;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 5px;
+        padding: 5px 5px 10px 5px;
+}
+.formacion div p{
+    color: black;
+        font-family: 'roboto', 'sans-serif';
+        font-weight: 200;
+        font-size: 16px;
+        font-style: normal;
+        margin: 5px 10px 0px 5px;
+}
+.formacion .herramientas img{
+    object-fit: fill;
+    height: 450px;
+    width: 100%;
+    margin-right: 20px;
+}
+/*----------------------------------------------*/
+.detalle{
+    width: 100%;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    flex-wrap: nowrap;
+    background-image:url(../img/techo.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.tarjeta h2{
-    color: black;
-    font-family: 'roboto', 'sans-serif';
-    font-weight: 200;
-    font-size: 20px;
-    font-style: normal;
-    text-align: center;
-    margin: 10px 10px 0px 10px;
-}
-.tarjeta p{
-    color: black;
-    font-family: 'roboto', 'sans-serif';
-    font-weight: 200;
-    font-size: 16px;
-    font-style: normal;
-    text-align: center;
-    margin: 10px 10px 0px 5px;
-}
+    .detalle h2{
+        color: #ffffff;
+        font-family: 'libre Baskerville', 'serif';
+        font-weight: bold;
+        font-size: 60px;
+        font-style: normal;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin: 30px 150px 5px 150px;
+    }
 
-.tarjeta img{
-    width: 160px;
-    height: 180px;
-    margin-top: 20px;
-    object-fit: cover;
-    border-color: #757575;
-    border-style: solid;
-}    
+    .detalle p{
+        color:#f07b58  ;
+        font-family: 'roboto','sans-serif';
+        font-weight: 600;
+        font-size: 20px;
+        font-style: normal;
+        margin: 30px 150px 20px 150px;
+        background-color: rgba(0, 0, 0, 0.39);
+    }
 
-.valenti{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    margin-top: 85px;
-    margin-left: 15px;
-    box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
-    -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
-    -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
-    background: radial-gradient(circle, rgba(108,128,109,1) 25%, rgba(178,205,161,1) 86%);
-}
+/*----------------------------------------------*/
 
-.vision{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    margin-top: 40px;
-}
-.vision p{
-    font-size: 20px;
-}
-.look h3{
-    color: #f07b58;
-    font-family: 'libre Baskerville', 'serif';
-    font-weight: bold;
-    font-style: normal;
-    text-align: center;
-    font-weight: 700;
-    font-size: 25px;
-    padding: 5px 5px 10px 5px;
-}
-.mision{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    margin-top: 0px;
-}
 
-.mision p{
-    font-size: 20px;
-}
-.pino{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    margin-top: 85px;
-    box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
-    -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
-    -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
-    background: radial-gradient(circle, rgba(108,128,109,1) 25%, rgba(178,205,161,1) 86%);
-}
-
-.carousel{
-    display: none;
-}
-/*------------------------------------------------*/
 .servicios{
     width: 100%;
 }
@@ -296,7 +314,6 @@ header  div nav ul li a:hover{
     border-style: double;
     border-color: #b2cda1; 
     transition: 1s;
-    
 }
 
 .servicios div:hover{
@@ -304,7 +321,8 @@ header  div nav ul li a:hover{
     -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     height: 400px;
-    transform: scale(1.1)
+    transform: scale(1.1);
+    
 }
 
 
@@ -322,87 +340,120 @@ header  div nav ul li a:hover{
     height: 200px;
     margin: 10px 10px 10px 10px;
 }
+/*!------------------galeria-----------------*/
+.intro{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.445), rgba(0, 0, 0, 0.5)),  url(../img/obreros.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-/*----------------------------------------------*/
+    .intro h2{
+        color: #f07b58 ;
+        font-family: 'libre Baskerville', 'serif';
+        font-weight: bold;
+        font-size: 50px;
+        font-style: normal;
+        padding-top: 30px;
+        padding-bottom: 20px;
+        margin: 30px 150px 5px 150px;
+    }
 
+    .intro p{
+        color: white;
+        font-family: 'roboto','sans-serif';
+        font-weight: 600;
+        font-size: 20px;
+        font-style: normal;
+        margin: 50px 300px 10px 300px;
+        background-color: rgba(0, 0, 0, 0.267);
+    }
 .galeria{
     width: 100%;
 }
 
-.grid-galeria{
+.galeria div.grid-galeria{
     width: 100%;
     margin: 20px 0px 20px 0px;
     display: grid;
     grid-auto-rows: 200px ;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 10px;
-    column-gap: 15px;
+    row-gap: 15px;
+    column-gap: 18px;
 }   
 
-.galeria div img{
+.galeria div.grid-galeria img{
     width: 100%;
     height: 100%;
     object-fit: cover;
 } 
 
-.estanteria{
+.galeria div.grid-galeria .estanteria{
     grid-row: span 2;
 }
 
-.cieloraso{
+.galeria div.grid-galeria .cieloraso{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
-.metrobus{
+.galeria div.grid-galeria .metrobus{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
 }
 
-.itauinterno{
+.galeria div.grid-galeria .itauinterno{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-.hormigon{
+.galeria div.grid-galeria .hormigon{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start:2;
     grid-row-end: 3;
 }
 
-.segundacap{
+.galeria div.grid-galeria .segundacap{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 4;
 }
 
-.itauexterno{
+.galeria div.grid-galeria .itauexterno{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
 }
 
-.paternal{
+.galeria div.grid-galeria .paternal{
     grid-row: span 2;
 }
 
-.coto{
+.galeria div.grid-galeria .coto{
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 5;
 }
 
-.desdeabajo{
+.galeria div.grid-galeria .desdeabajo{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 4;
@@ -413,47 +464,42 @@ header  div nav ul li a:hover{
 
 .contacto{
     width: 100%;
-    height: 120vh;
+    height: auto;
     background-color: #dedede;
     font-family: 'roboto','sans-serif';
     font-size: 15px;
     display: flex;
     justify-content: space-around;
 }
-.titulocontacto{
-    width: 100%;
-    font-size: 35px;
-    padding: 2px 0px 4px 0px;
-    font-style: normal;
-    text-align: center;
-}
 
-.iconos i{
+
+.contacto div.iconos  i{
+    
     font-size: 40px;
     margin: 5px 5px 5px 5px;
     color:#757575 ;
 }
 
-.iconos h3{
+.contacto div.iconos h3{
     font-size: 20px;
     margin: 5px 5px 5px 5px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-timing-function: ease-in;
 }
 
-.iconos h3:hover{
+.contacto div.iconos h3:hover{
     font-size: 23px;
     color: #f07b58;
     font-weight: bold;
 }
 
-.iconos iframe{
+.contacto div.iconos iframe{
     width: 100px;
     height: 100px;
     object-fit: cover;
     margin: 10px 5px 10px 5px;
 }
-/*----------------------------------------------*/
+/*----------------------------------------------*//*----------------------------------------------*/
 .whatsapp{
     position: fixed;
     right: 50px;
@@ -501,111 +547,32 @@ footer div h4{
 }
 
 /*!----------------------------HEADER-----------------------------------*/
-@media screen and (max-width:750px){
-    .grid-header{   
-        grid-template-columns: repeat(2, 1fr) ;
-        grid-auto-rows: 20px 20px 60px;
-    }    
-
-    .grid-item{
-        grid-column: span 1;
-        grid-row: span 1;
+@media screen and (max-width:650px){ 
+    header{
+        flex-direction: column;
     }
-        
-    .titulohigiene{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    .barranavegacion{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-    .logo{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-    .logo img{
-        width: 110px;
-        height: 40px;
-    }
-    .titulolicenciados{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-    .bootnav{
+    header div.logo h1{
         display: none;
     }
-}  
-
-@media screen and (max-width:600px){
-    .grid-header{
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 25px 25px 50px; 
-    }
-
-    .grid-item{
-        grid-column: span 1;
-        grid-row: span 1;
-    }
-    
-    .titulohigiene{
-        grid-row-start: 1;
-        grid-row-end: 2;
-        font-size: 6px;
-    }
-    .barranavegacion{
-        grid-row-start: 2;
-        grid-row-end: 3;
-    }
-
-    header  div nav ul li a{
-        font-size: 14px;
-        padding: 2px 0px 2px 0px;
-    }
-    
-    .logo{
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-    .logo img{
-        width: 80px;
-        height: 40px;
-    }
-    
-    .titulolicenciados{
-        grid-row-start: 3;
-        grid-row-end: 4;
-        font-size: 8px;
-    }
-    .bootnav{
+    header div.logo h2{
         display: none;
     }
-}  
-
-@media screen and (max-width:400px){ /*!agregar menu*/
-    .header{
-        height: 65px;
-        width: 100%;
+    .bootnav{
+        display: none
     }
-    .grid-header{
+}
+
+@media screen and (max-width:500px){ 
+    header div.barranavegacion{
         display: none;
     }
 
+    header div.logo{
+        display: none;
+    }
     .bootnav{
-    display: initial;
-    background-color: #b2cda1;
+        display: initial;
+        background-color: #b2cda1;
     }
 
     .bootnav img{
@@ -691,318 +658,210 @@ footer div h4{
     }
 }
 
-@media  screen and (max-width: 340px) {
-    .hero h2{
-        font-size: 30px;
-        padding-top: 70px;
-        padding-bottom: 5px;
-        margin: 0px 50px 5px 50px;
+/*!--------------------------nosotros-----------------------------*/
+@media screen and (max-width:700px){
+    .nosotros .tarjeta div h2{
+        font-size: 15px;
+        margin: 5px;
+    }
+    .nosotros .tarjeta div p{
+        font-size: 12px;
+        margin: 5px;
+    }
+    .nosotros .tarjeta div img{
+        width: 100px;
+        height: 120px;
+    }
+    .nosotros .tarjeta div h3{
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:430px){
+    .nosotros{
+        height: 350px;
+    }
+    .nosotros .tarjeta{
+        display: none;
+    }
+    #carouselExampleSlidesOnly{
+        display: initial;
+        
     }
     
-    .hero p{
-        font-weight: 500;
+    .carousel-inner{
+        height: 250px;
+        width: 250px;
+        margin: 25px 50px 25px 50px;
+    }
+}
+
+/*!-------------------formacion-----------*/
+
+@media  screen and (max-width: 650px){
+    .formacion div h3{
+        font-size: 15px;
+    }
+    .formacion div p{
+        font-size: 12px;
+        margin: 5px;
+    }
+    .formacion .herramientas img{
+        height: 400px;
+        margin-right: 5px;
+    }
+}
+
+
+@media  screen and (max-width: 450px){
+    .formacion{
+        flex-direction: column-reverse
+    }
+    .formacion .herramientas img{
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+}
+
+/*!-------------------detalle-----------*/
+@media  screen and (max-width: 900px) {
+    .detalle h2{
+        font-size: 45px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        margin: 0px 100px 5px 100px;
+    }
+    
+    .detalle p{
+        font-weight: 450;
         font-size: 23px;
-        margin: 50px 70px 10px 70px;
+        margin: 25px 150px 10px 150px;
         padding-top: 10px;
     }
 }
 
-/*!--------------------------nosotros-----------------------------*/
-@media screen and (max-width:950px){
-    .tarjetanosotros{
-        width: 100%;
-        display: grid;
-        grid-template-rows: 10% 30% 30% 30%;
-        grid-template-columns: repeat(2, 1fr);
-    }    
-    
-    .tituloquienessomos{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }  
-    
-    .tarjeta{
-        width: 280px;
-        height: 270px;
-        padding-top: 5px;
+@media  screen and (max-width: 670px) {
+    .detalle h2{
+        font-size: 45px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin: 0px 50px 5px 50px;
     }
     
-    .tarjeta h2{
-        font-size: 16px;
-    }
-    .tarjeta p{
-        font-size: 16px;
-        margin: 0px 80px 0px 80px;
-    }
-    
-    .tarjeta img{
-        width: 200px;
-        height: 160px;
-    }    
-    
-    .valenti{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 4;
-        margin-top: 15px;
-        margin-left: 70px;
-    }
-    .valenti p{
-        margin: 5px 0px 0px 0px;
-    }
-    
-    .vision{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        margin: 15px 20px 0px 50px;
-    }
-    .vision p{
-        font-size: 15px;
-        margin: 0px 5px 0px 5px;
-    }
-
-    .mision{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-        margin: 5px 20px 0px 70px;
-    }
-    
-    .mision p{
-        font-size: 15px;
-        margin: 0px 5px 0px 5px;
-    }
-
-    .pino{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 5;
-        margin-left: 70px;
-        margin-top: 20px;
-    }
-
-    .pino p{
-        margin: 5px 0px 0px 0px;
-    }
-}    
-
-@media screen and (max-width:730px){
-    .tarjetanosotros{
-        width: 100%;
-        display: grid;
-        grid-template-rows: 10% 45% 45% ;
-        grid-template-columns: repeat(2, 1fr);
-    }    
-
-    .tituloquienessomos{
-        font-size: 25px;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }  
-    
-    .tarjeta{
-        width: 200px;
-        height: 180px;
-        padding-top: 5px;
-        margin-top: 15px;
-    }
-    
-    .tarjeta h2{
-        font-size: 14px;
-    }
-
-    .tarjeta p{
-        font-size: 12px;
-        margin: 0px 40px 0px 40px;
-    }
-    
-    .tarjeta img{
-        width: 110px;
-        height: 110px;
-    }    
-    
-    .valenti{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        margin-top: 15px;
-        margin-left: 40px;
-    }
-
-    .valenti p{
-        margin: 5px 0px 0px 0px;
-    }
-    
-    .vision{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        margin: 15px 20px 0px 20px;
-    }
-
-    .vision p{
-        font-size: 15px;
-        margin: 0px 5px 0px 5px;
-    }
-
-    .mision{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        margin: 15px 20px 0px 40px;
-    }
-
-    .mision p{
-        font-size: 15px;
-        margin: 0px 5px 0px 5px;
-    }
-
-    .pino{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        margin:0px 20px 0px 20px;
-    }
-
-    .pino p{
-        margin: 5px 0px 0px 0px;
-    }
-}    
-
-@media screen and (max-width:510px){
-    .tarjetanosotros{
-        width: 100%;
-        height: 100vh;
-        display: grid;
-        grid-template-rows: 10% 45% 45% ;
-        grid-template-columns: repeat(2, 1fr);
-    }    
-
-    .tituloquienessomos{
-        font-size: 18px;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }  
-    
-    .tarjeta{
-        width: 150px;
-        height: 100px;
-        padding-top: 2px;
-        margin-top: 5px;
-    }
-    
-    .tarjeta h2{
-        font-size: 12px;
-    }
-    .tarjeta p{
-        font-size: 10px;
-        margin: 0px 20px 0px 20px;
-    }
-    
-    .tarjeta img{
-        width: 90px;
-        height: 85px;
-    }    
-    
-    .valenti{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        margin-top: 3px;
-        margin-left: 20px;
-        
-    }
-    .valenti p{
-        margin: 5px 0px 0px 0px;
-    }
-    
-    .pino{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        margin:3px 0px 0px 20px;
-        
-    }
-
-    .pino p{
-        margin: 5px 0px 0px 0px;
-    }
-    .vision{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        margin: 0px 20px 0px 20px;
-    }
-
-    .vision p{
-        font-size: 12px;
-        margin: 0px 5px 0px 5px;
-    }
-
-    .mision{
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-        margin: 0px 0px 0px 20px;
-    }
-
-    .mision p{
-        font-size: 12px;
-        margin: 0px 5px 0px 5px;
-    }
-}   
-
-@media screen and (max-width:400px){
-    .tarjetanosotros{
-        display: none;
-    }
-    .carousel{
-        display: initial;
+    .detalle p{
+        font-weight: 400;
+        font-size: 20px;
+        margin: 20px 100px 10px 100px;
+        padding-top: 10px;
     }
 }
 
-/*!---------------------NUESTRO TRABAJO-------------------------------------------------*/
+@media  screen and (max-width: 550px) {
+    .detalle h2{
+        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        margin: 0px 50px 5px 50px;
+    }
+    
+    .detalle p{
+        font-weight: 400;
+        font-size: 18px;
+        margin: 15px 100px 10px 100px;
+        padding-top: 5px;
+    }
+}
+
+@media  screen and (max-width: 480px) {
+    .detalle h2{
+        font-size: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0px 50px 5px 50px;
+    }
+    
+    .detalle p{
+        font-weight: 400;
+        font-size: 16px;
+        margin: 10px 80px 10px 80px;
+        padding-top: 5px;
+    }
+}
+
+/*!---------------------intro-------------------------------------------------*/
+@media  screen and (max-width: 900px) {
+    .intro h2{
+        font-size: 45px;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        margin: 0px 100px 5px 100px;
+    }
+    
+    .intro p{
+        font-weight: 450;
+        font-size: 23px;
+        margin: 25px 100px 10px 100px;
+        padding-top: 10px;
+    }
+}
+
+@media  screen and (max-width: 670px) {
+    .intro h2{
+        font-size: 45px;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin: 0px 50px 5px 50px;
+    }
+    
+    .intro p{
+        font-weight: 400;
+        font-size: 20px;
+        margin: 20px 100px 10px 100px;
+        padding-top: 10px;
+    }
+}
+
+@media  screen and (max-width: 550px) {
+    .intro h2{
+        font-size: 40px;
+        padding-top: 15px;
+        padding-bottom: 5px;
+        margin: 0px 50px 5px 50px;
+    }
+    
+    .intro p{
+        font-weight: 400;
+        font-size: 18px;
+        margin: 15px 60px 10px 60px;
+        padding-top: 5px;
+    }
+}
 
 
+/*!---------------------galeria-------------------------------------------------*/
 @media screen and (max-width:700px){
-    .grid-galeria{   
+    .galeria div.grid-galeria{   
         grid-template-columns: repeat(2, 1fr) ;
         grid-auto-rows: 200px;
     }    
 
-    .grid-item{
+    .galeria div.grid-galeria .grid-item{
         grid-column: span 1;
         grid-row: span 1;
     }
-    .estanteria{
+    .galeria div.grid-galeria .estanteria{
         grid-row: span 2;
     }
-    .paternal{
+    .galeria div.grid-galeria .paternal{
         grid-row: span 2;
     }
 }    
 
 @media screen and (max-width:450px){
-    .grid-galeria{
+    .galeria div.grid-galeria{
         grid-template-columns:1fr;
     }
 }
@@ -1021,3 +880,4 @@ footer div h4{
         font-size: 16px;
     }
 }
+
