@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+
+/*!------------------reset-----------------*/
+
+
 $color-principal: #b2cda1;
 $color-secundario: #f07b58;
 $color-terciario: #525352 ;
@@ -5,7 +13,7 @@ $color-cuarto: #757575;
 
 
 
-%titulodepagina {
+@mixin titulodepagina {
     width: 100%;
     color: $color-principal;
     font-family: 'libre Baskerville', 'serif';
@@ -18,7 +26,7 @@ $color-cuarto: #757575;
 }
 
 
-%servicios {
+@mixin servicios {
     width: 300px;
     height: 350px;
     margin-left: 2%;
@@ -31,7 +39,7 @@ $color-cuarto: #757575;
     border-color: $color-principal; 
     
 }
-%servicioshover {
+@mixin servicioshover {
     box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     -webkit-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
     -moz-box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
@@ -40,7 +48,7 @@ $color-cuarto: #757575;
 }
         
 
-%serviciosh3 {
+@mixin serviciosh3 {
     color: $color-secundario;
     font-family: 'roboto', sans-serif;
     font-weight: 700;
@@ -50,32 +58,32 @@ $color-cuarto: #757575;
         
 
         
-%serviciosimg {
+@mixin serviciosimg {
     width: 200px;
     height: 200px;
     margin: 10px 10px 10px 10px;
     }
 
-%iconosi {
+@mixin iconosi {
         font-size: 40px;
         margin: 5px 5px 5px 5px;
         color: $color-cuarto ;
     }
     
-%iconosh3 {
+@mixin iconosh3 {
         font-size: 20px;
         margin: 5px 5px 5px 5px;
         transition-duration: 1s;
         transition-timing-function: ease-in;
     }
     
-%iconoshover {
+@mixin iconoshover {
         font-size: 23px;
         color: $color-secundario;
         font-weight: bold;
     }
     
-%iconosiframe {
+@mixin iconosiframe {
         width: 100px;
         height: 100px;
         object-fit: cover;

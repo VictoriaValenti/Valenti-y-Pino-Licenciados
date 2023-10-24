@@ -12,3 +12,37 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+.bootnav{
+    display: initial;
+    background-color: #b2cda1;
+}
+
+.bootnav img{
+width: 80px;
+height: 40px;
+margin: 5px 20px 5px 20px;
+}
+
+.navbar-toggler{
+    border: 1px solid #f07b58;
+    background-color: #ffffff;
+    color: black;
+}
+.navbar-toggler:hover{
+    border: black;
+    background-color: #f07b58;
+    color: white;
+    
+}
+
+.carousel{
+    display: initial;
+    
+}
+
+.carousel-inner{
+    height: 250px;
+    width: 250px;
+    margin: 25px 50px 25px 50px;
+}

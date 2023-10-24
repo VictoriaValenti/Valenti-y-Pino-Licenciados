@@ -95,7 +95,7 @@ header div.barranavegacion{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-image:url(../img/columnas\ de\ soporte.jpeg);
+    background-image:url(../img/columnasdesoporte.jpeg);
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -235,14 +235,14 @@ header div.barranavegacion{
 }
 .formacion div h3{
     color: #f07b58;
-        font-family: 'libre Baskerville', 'serif';
-        font-weight: bold;
-        font-style: normal;
-        text-align: center;
-        font-weight: 700;
-        font-size: 20px;
-        margin-top: 5px;
-        padding: 5px 5px 10px 5px;
+    font-family: 'libre Baskerville', 'serif';
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 5px 5px 10px 5px;
 }
 .formacion div p{
     color: black;
@@ -390,7 +390,10 @@ header div.barranavegacion{
     column-gap: 18px;
 }   
 
-.galeria div.grid-galeria img{
+.galeria div.grid-galeria div.grid-item{
+    position: relative;
+}
+.galeria div.grid-galeria div.grid-item img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -512,7 +515,7 @@ header div.barranavegacion{
 }
 /*!------------------footer-----------------*/
 
-footer {
+footer{
     background-color: #757875;
     width: 100%;
     height: 15vh;
@@ -685,7 +688,7 @@ footer div h4{
     .nosotros .tarjeta{
         display: none;
     }
-    #carouselExampleSlidesOnly{
+    .carousel{
         display: initial;
         
     }
@@ -864,6 +867,10 @@ footer div h4{
     .galeria div.grid-galeria{
         grid-template-columns:1fr;
     }
+    .galeria div.drid-galeria .grid-item{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
 }
 /*!-----------------CONTACTO---------------------------*/
 
@@ -876,8 +883,6 @@ footer div h4{
         align-items: center;
         text-align: center;
     }
-    .titulocontacto{
-        font-size: 16px;
-    }
+    
 }
 
