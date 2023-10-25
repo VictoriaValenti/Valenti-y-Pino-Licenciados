@@ -15,7 +15,7 @@
 
 .bootnav{
     display: initial;
-    background-color: #b2cda1;
+    background-color: $color-principal;
 }
 
 .bootnav img{
@@ -25,13 +25,13 @@ margin: 5px 20px 5px 20px;
 }
 
 .navbar-toggler{
-    border: 1px solid #f07b58;
+    border: 1px solid $color-secundario;
     background-color: #ffffff;
     color: black;
 }
 .navbar-toggler:hover{
     border: black;
-    background-color: #f07b58;
+    background-color: $color-secundario;
     color: white;
     
 }

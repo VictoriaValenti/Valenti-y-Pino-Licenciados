@@ -56,7 +56,7 @@
             padding-top: 5px;
             align-items: center;
             border-radius: 20px;
-            h2{
+            h3{
                 color: black;
                 font-family: 'roboto', 'sans-serif';
                 font-weight: 200;
@@ -78,11 +78,11 @@
                 margin-top: 5px;
                 object-fit: cover;
                 border-radius: 10%;
-                border-color:  #757875c9;
+                border-color:  $color-cuarto;
                 border-style: solid;
             } 
-            h3{
-                color: #f07b58;
+            h4{
+                color: $color-secundario;
                 font-family: 'libre Baskerville', 'serif';
                 font-weight: bold;
                 font-style: normal;
@@ -123,7 +123,7 @@
         width: 40%;
         height: auto;
         h3{
-            color: #f07b58;
+            color: $color-secundario;
             font-family: 'libre Baskerville', 'serif';
             font-weight: bold;
             font-style: normal;
@@ -176,7 +176,7 @@
         margin: 30px 150px 5px 150px;
     }
     p{
-        color:#f07b58  ;
+        color: $color-secundario  ;
         font-family: 'roboto','sans-serif';
         font-weight: 600;
         font-size: 20px;
@@ -201,7 +201,7 @@
         text-align: center;
         display: inline-block;
         border-style: double;
-        border-color: #b2cda1; 
+        border-color: $color-principal; 
         transition: 1s;
         &:hover{
             box-shadow: 2px 19px 90px -22px rgba(5,1,0,0.76);
@@ -211,7 +211,7 @@
             transform: scale(1.1);
         }
         h3{
-            color: #f07b58;
+            color: $color-secundario;
             font-family: 'roboto', sans-serif;
             font-weight: 700;
             font-size: 30px;
@@ -239,7 +239,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     h2{
-        color: #f07b58 ;
+        color: $color-secundario ;
         font-family: 'libre Baskerville', 'serif';
         font-weight: bold;
         font-size: 50px;
@@ -350,7 +350,7 @@
             i{
                 font-size: 40px;
                 margin: 5px 5px 5px 5px;
-                color:#757575 ;
+                color:$color-cuarto;
             }
             h3{
                 font-size: 20px;
@@ -359,7 +359,7 @@
                 transition-timing-function: ease-in;
                 &:hover{
                     font-size: 23px;
-                    color: #f07b58;
+                    color: $color-secundario;
                     font-weight: bold;
                 }
             }
