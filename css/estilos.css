@@ -1,17 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+.nosotros h2, .servicios h2, .galeria h2, .contacto h2 {
+  width: 100%;
+  color: #b2cda1;
+  font-family: 'libre Baskerville', 'serif';
+  font-weight: bolder;
+  font-size: 35px;
+  padding: 2px 0px 4px 0px;
+  font-style: normal;
+  text-align: center;
+  background-color: #757875c9; }
+
 /*!------------------reset-----------------*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
-/*!------------------reset-----------------*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Baskerville:wght@700&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -138,16 +146,6 @@ header {
 .nosotros {
   width: 100%;
   height: 500px; }
-  .nosotros h2 {
-    width: 100%;
-    color: #b2cda1;
-    font-family: 'libre Baskerville', 'serif';
-    font-weight: bolder;
-    font-size: 35px;
-    padding: 2px 0px 4px 0px;
-    font-style: normal;
-    text-align: center;
-    background-color: #757875c9; }
   .nosotros .tarjeta {
     display: flex;
     justify-content: space-around;
@@ -275,16 +273,6 @@ header {
 /*!---------------servicios-----------*/
 .servicios {
   width: 100%; }
-  .servicios h2 {
-    width: 100%;
-    color: #b2cda1;
-    font-family: 'libre Baskerville', 'serif';
-    font-weight: bolder;
-    font-size: 35px;
-    padding: 2px 0px 4px 0px;
-    font-style: normal;
-    text-align: center;
-    background-color: #757875c9; }
   .servicios div {
     width: 300px;
     height: 350px;
@@ -349,16 +337,6 @@ header {
 /*!---------------galeria-----------*/
 .galeria {
   width: 100%; }
-  .galeria h2 {
-    width: 100%;
-    color: #b2cda1;
-    font-family: 'libre Baskerville', 'serif';
-    font-weight: bolder;
-    font-size: 35px;
-    padding: 2px 0px 4px 0px;
-    font-style: normal;
-    text-align: center;
-    background-color: #757875c9; }
   .galeria .grid-galeria {
     width: 100%;
     margin: 20px 0px 20px 0px;
@@ -425,16 +403,6 @@ header {
   font-size: 15px;
   display: flex;
   justify-content: space-around; }
-  .contacto h2 {
-    width: 100%;
-    color: #b2cda1;
-    font-family: 'libre Baskerville', 'serif';
-    font-weight: bolder;
-    font-size: 35px;
-    padding: 2px 0px 4px 0px;
-    font-style: normal;
-    text-align: center;
-    background-color: #757875c9; }
   .contacto .iconos div i {
     font-size: 40px;
     margin: 5px 5px 5px 5px;
