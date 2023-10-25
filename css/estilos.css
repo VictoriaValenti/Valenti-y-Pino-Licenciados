@@ -140,7 +140,7 @@ header {
     font-size: 20px;
     font-style: normal;
     margin: 50px 300px 10px 300px;
-    background-color: rgba(0, 0, 0, 0.267); }
+    background-color: rgba(0, 0, 0, 0.63); }
 
 /*!--------------------------*/
 .nosotros {
@@ -490,7 +490,7 @@ footer {
     padding-bottom: 5px;
     margin: 0px 100px 5px 100px; }
   .hero p {
-    font-weight: 450;
+    font-weight: 550;
     font-size: 23px;
     margin: 25px 150px 10px 150px;
     padding-top: 10px; } }
@@ -502,7 +502,7 @@ footer {
     padding-bottom: 5px;
     margin: 0px 100px 5px 100px; }
   .hero p {
-    font-weight: 400;
+    font-weight: 550;
     font-size: 20px;
     margin: 20px 180px 10px 180px;
     padding-top: 10px; } }
@@ -514,7 +514,7 @@ footer {
     padding-bottom: 5px;
     margin: 0px 50px 5px 50px; }
   .hero p {
-    font-weight: 400;
+    font-weight: 550;
     font-size: 18px;
     margin: 15px 100px 10px 100px;
     padding-top: 5px; } }
@@ -526,7 +526,7 @@ footer {
     padding-bottom: 10px;
     margin: 0px 80px 5px 80px; }
   .hero p {
-    font-weight: 400;
+    font-weight: 550;
     font-size: 16px;
     margin: 10px 100px 10px 100px;
     padding-top: 5px; } }
